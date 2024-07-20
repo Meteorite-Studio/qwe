@@ -12,7 +12,7 @@
 > ```
 #
 > [!IMPORTANT]
-> Changing Automatic Limit Page / function :SetAutomaticLimitPageTo() -- Automatic limit page will automatically set the limit of the page depending how many page it contains
+> Changing Automatic Limit Page / function :SetAutomaticLimitPageTo() -- The automatic limit page will set the page limit based on the total number of pages.
 > ```lua
 > --// Code Language: LUA
 > --// OBJECT TYPE AVAILABILITY: localscript
@@ -22,7 +22,7 @@
 > ```
 #
 > [!IMPORTANT]
-> Changing Prefix to look for / function :SetPagePrefixNameTo -- Look for the frame that has a same name as the prefix for e.g "Page..CurrentPage" or "Page1" numbers is neccesary so it indicate the where is the next page.
+> Changing Prefix to look for / function :SetPagePrefixNameTo -- Find the frame that matches the prefix, such as "Page..CurrentPage" or "Page1." Numbers are necessary as they indicate the order of the pages.
 > ```lua
 > --// Code Language: LUA
 > --// OBJECT TYPE AVAILABILITY: localscript
@@ -32,7 +32,7 @@
 > ```
 #
 > [!IMPORTANT]
-> Next Page / function .Next -- Proceed to next page. Make sure the page are inside the Pages folder and set it to P1 (Default Prefix)
+> Next Page / function .Next -- Proceed to the next page. Ensure the page is inside the Pages folder and set the name to P1 (Default Prefix).
 > 
 > ![image](https://github.com/user-attachments/assets/574929b4-0ee6-44e5-a53d-dbc05ccf7e89)
 > ```lua
@@ -44,7 +44,7 @@
 > ```
 #
 > [!IMPORTANT]
-> Previous Page / function .Previous -- Go back to previous page. Make sure the page are inside the Pages folder and set it to P1 (Default Prefix)
+> Previous Page / function .Previous -- Go back to the previous page. Ensure the page is inside the Pages folder and set the name to P1 (Default Prefix).
 > 
 > ![image](https://github.com/user-attachments/assets/574929b4-0ee6-44e5-a53d-dbc05ccf7e89)
 > ```lua
@@ -56,7 +56,7 @@
 > ```
 #
 > [!IMPORTANT]
-> Update / function .Update -- Update the page. This function should be keep repeating, so the next and previous button will be controlled
+> Update / function .Update -- Update the page. This function should keep repeating, so the next and previous buttons will be controlled.
 > ```lua
 > --// Code Language: LUA
 > --// OBJECT TYPE AVAILABILITY: localscript
@@ -70,7 +70,7 @@
 > [!TIP]
 > Here is the example
 >
-> You can use this as a guide to follow (The prefix used is "P" which is the default one, to add a new page just change the number after the prefix but make sure all of it was following the increasing rules or else it will not work)
+> You can use this as a guide to follow: The prefix used is "P" (the default). To add a new page, just change the number after the prefix, ensuring all numbers follow the increasing sequence; otherwise, it will not work.
 > 
 > ![image](https://github.com/user-attachments/assets/5804033b-ee07-4f2e-8d47-fc3a376eb5d7)
 >
