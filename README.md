@@ -16,7 +16,7 @@
 > ```lua
 > --// Code Language: LUA
 > --// OBJECT TYPE AVAILABILITY: localscript
-> local PageSystem = game.ReplicatedStorage:WaitForChild("PageSystem")
+> local PageSystem = require(game.ReplicatedStorage:WaitForChild("PageSystem"))
 >
 > PageSystem:SetAutomaticLimitPageTo(Boolean : boolean) -- true/false
 > ```
@@ -26,7 +26,7 @@
 > ```lua
 > --// Code Language: LUA
 > --// OBJECT TYPE AVAILABILITY: localscript
-> local PageSystem = game.ReplicatedStorage:WaitForChild("PageSystem")
+> local PageSystem = require(game.ReplicatedStorage:WaitForChild("PageSystem"))
 >
 > PageSystem:SetPagePrefixNameTo(Name : string) -- string
 > ```
@@ -38,7 +38,7 @@
 > ```lua
 > --// Code Language: LUA
 > --// OBJECT TYPE AVAILABILITY: localscript
-> local PageSystem = game.ReplicatedStorage:WaitForChild("PageSystem")
+> local PageSystem = require(game.ReplicatedStorage:WaitForChild("PageSystem")))
 >
 > PageSystem.Next(Pages : Folder?) -- Object
 > ```
@@ -50,7 +50,7 @@
 > ```lua
 > --// Code Language: LUA
 > --// OBJECT TYPE AVAILABILITY: localscript
-> local PageSystem = game.ReplicatedStorage:WaitForChild("PageSystem")
+> local PageSystem = require(game.ReplicatedStorage:WaitForChild("PageSystem"))
 >
 > PageSystem.Previous(Pages: Folder?) -- Object
 > ```
@@ -60,7 +60,7 @@
 > ```lua
 > --// Code Language: LUA
 > --// OBJECT TYPE AVAILABILITY: localscript
-> local PageSystem = game.ReplicatedStorage:WaitForChild("PageSystem")
+> local PageSystem = require(game.ReplicatedStorage:WaitForChild("PageSystem"))
 >
 > while wait(0.5) do
 >   PageSystem.Update(Pages : Folder,Previous : Button, Next: Button) -- Object, Object, Object
